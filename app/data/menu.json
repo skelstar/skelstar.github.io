@@ -1,0 +1,204 @@
+{
+  "menu": [
+    {
+      "label": "Home",
+      "link": "home",
+      "subitems": [ ]
+    },
+    {
+      "label": "Our School",
+      "link": "#",
+      "subitems": [
+        {
+          "label": "School Newsletter",
+          "link": "http://muritainews.blogspot.com",
+          "icon": "blog"
+        },
+        {
+          "label": "ERO Report",
+          "link": "../data/2015/Muritai-School-ERO-Report-2015.pdf",
+          "icon": "pdf"
+        },
+        {
+          "label": "School Information",
+          "link": "#information"
+        },
+        {
+          "label": "Board of Trustees Newsletter",
+          "link": "http://muritaioffice.blogspot.com/",
+          "icon": "blog"
+        },
+        {
+          "label": "School History",
+          "link": "#history"
+        },
+        {
+          "label": "Contact Us",
+          "link": "#contact"
+        }
+      ]
+    },
+    {
+      "label": "Our Way",
+      "link": "#",
+      "subitems": [
+        {
+          "label": "Vision",
+          "link": "#visions"
+        },
+        {
+          "label": "Mission",
+          "link": "#mission"
+        },
+        {
+          "label": "Values",
+          "link": "#values"
+        },
+        {
+          "label": "Howie Learn",
+          "link": "#howie"
+        }
+      ]
+    },
+    {
+      "label": "Our Learning",
+      "link": "#",
+      "subitems": [
+        {
+          "label": "Classroom Blogs",
+          "link": "#class-blogs"
+        },
+        {
+          "label": "Senior School Science",
+          "link": "http://muritaiseniorschoolscience.blogspot.co.nz/",
+          "icon": "blog"
+        },
+        {
+          "label": "Violin at Muritai",
+          "link": "http://violinatmuritai.blogspot.co.nz/",
+          "icon": "blog"
+        },
+        {
+          "label": "Netball",
+          "link": "http://netballatmuritai.blogspot.co.nz/",
+          "icon": "blog"
+        },
+        {
+          "label": "Learning Support",
+          "link": "http://learningsupportatmuritaischool.blogspot.com",
+          "icon": "blog"
+        },
+        {
+          "label": "M.A.T.C.H.",
+          "link": "http://muritaimatchbox.blogspot.co.nz/",
+          "icon": "blog"
+        },
+        {
+          "label": "Muritai TV",
+          "link": "http://www.muritaitv.blogspot.com/",
+          "icon": "blog"
+        },
+        {
+          "label": "Enviroschools",
+          "link": "http://enviroschoolteam.blogspot.co.nz/",
+          "icon": "blog"
+        },
+        {
+          "label": "Tikanga Maori",
+          "link": "http://maoriatmuritai.pbworks.com",
+          "icon": "blog"
+        },
+        {
+          "label": "Library",
+          "link": "http://www.muritailibrary.blogspot.com/",
+          "icon": "blog"
+        },
+        {
+          "label": "Junior Jottings",
+          "link": "http://muritaischoolnz.blogspot.com/",
+          "icon": "blog"
+        },
+        {
+          "label": "Sport",
+          "link": "http://muritaisports.blogspot.com/",
+          "icon": "blog"
+        }
+      ]
+    },
+    {
+      "label": "Our People",
+      "link": "#",
+      "subitems": [
+        {
+          "label": "Principal's Blog",
+          "link": "http://birdseyeblog.blogspot.com/",
+          "icon": "blog"
+        },
+        {
+          "label": "Staff List",
+          "link": "#class-list",
+          "icon": ""
+        },
+        {
+          "label": "Board of Trustees",
+          "link": "#trustees",
+          "icon": ""
+        },
+        {
+          "label": "Home and School",
+          "link": "#homeandschool",
+          "icon": ""
+        },
+        {
+          "label": "After School Care",
+          "link": "http://muritaiafterschoolcare.blogspot.com/",
+          "icon": "blog"
+        }
+      ]
+    },
+    {
+      "label": "Our Library",
+      "link": "#library",
+      "subitems": [ ]
+    },
+    {
+      "label": "Noticeboard",
+      "link": "#",
+      "subitems": [
+        {
+          "label": "Calendar",
+          "link": "#calendar"
+        },
+        {
+          "label": "Second-Hand Uniforms",
+          "link": "http://www.uniformme.co.nz/muritai-school/",
+          "icon": ""
+        },
+        {
+          "label": "Bank Details",
+          "link": "../data/Direct Payment Details.doc",
+          "icon": "doc"
+        },
+        {
+          "label": "Teacher Login",
+          "link": "http://home.muritai.school.nz/mydesktop",
+          "icon": ""
+        },
+        {
+          "label": "Food For Thought",
+          "link": "http://www.fft.co.nz/",
+          "icon": ""
+        },
+        {
+          "label": "Mathematics",
+          "link": "../data/2012/2012_Mathletics_for_Parents.pdf",
+          "icon": "pdf"
+        },
+        {
+          "label": "Login",
+          "link": "#login"
+        }
+      ]
+    }
+  ]
+}

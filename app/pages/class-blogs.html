@@ -1,0 +1,24 @@
+
+    <div ng-controller="ClassblogCtrl as blogCtrl" class="">
+
+        <h1>Classroom Blogs</h1>
+		
+        <p>(Click staff photos to read the blogs)</p>
+		
+		<p class="quick">Quick Jump: <a href="#management" class="management">Management</a>, <a href="#junior" class="junior">Junior</a>, <a href="#middle34" class="middle34">Middle (3-4)</a>, <a href="#middle56" class="middle56">Middle (5-6)</a>, <a href="#senior" class="senior">Senior</a>, or <a href="#support" class="support">Support</a> Section</p>
+		
+<!-- ******************************************************* -->	
+
+        <div id="syndicate" class="class-blogs" ng-repeat="syndicate in syndicates">
+            <a name="{{syndicate.name}}"></a>
+            
+            <h2><a href="">{{syndicate.name}}</a></h2>
+            
+            <div ng-repeat="room in syndicate.rooms" class="class-room">
+
+                <roomblog data="room"></roomblog>
+
+            </div>
+            
+        </div>
+

@@ -1,1 +1,56 @@
-Test
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="app" ng-controller="MainController as main">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta name="Author" content="Sean Kelly">
+	<meta name="Keywords" content="{{page.keywords}}">
+	<meta name="description" content="{{page.title}}">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+	<title>{{page.title}}</title>
+    
+	<link rel="stylesheet" href="assets/css/reset.css" type="text/css" media="screen, projection"/>
+    <link rel="stylesheet" href="assets/css/muritai.css" type="text/css" media="screen, projection"/>
+	<link rel="stylesheet" href="assets/css/menu.css" type="text/css" media="screen, projection"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    
+    <script type="application/javascript" src="assets/js/angular.min.js"></script>
+    <script type="application/javascript" src="assets/js/jquery-1.12.0.min.js"></script>
+    <script type="application/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
+
+    <script src="app/app.module.js"></script>
+    <script src="app/app.main.controller.js"></script>
+    <script src="app/app.routes.js"></script>
+    <script src="app/shared/app.data.service.js"></script>
+    <script src="app/components/app.stafflist.controller.js"></script>
+    <script src="app/components/app.classblog.controller.js"></script>
+    <script src="app/components/roomblogs/app.roomblog.directive.js"></script>
+    <script src="app/shared/app.menubar.directive.js"></script>
+
+    <script src="assets/js/angular-route.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="top_banner" class="fixed-width">
+        <a href="../index.php"><img src="assets/img/top_banner.gif" /></a>
+    </div>
+
+    <menubar></menubar>
+
+    <div id="container">
+        
+        <div ng-view></div>
+
+    </div>
+    
+    <footer class="footer">
+        <p>website written and designed by <a href="http:\\www.simantics.net" target="_BLANK">simantics.net</a></p>        
+    </footer> 
+
+</body>
+</html>

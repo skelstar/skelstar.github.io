@@ -1,0 +1,16 @@
+
+    <div ng-controller="StafflistCtrl as staffCtrl">
+
+		<h1>Staff List</h1>
+        
+        <div ng-repeat="syndicate in syndicates" class="stafflist">
+            
+            <h2>{{syndicate.name}}</h2>
+            
+            <ul>
+                <li ng-repeat="room in syndicate.rooms">{{room.role}} - {{room.person}} <a href="mailto:{{room.email}}">{{room.email}}</a></li>
+            </ul>
+            
+        </div>
+        
+    </div>

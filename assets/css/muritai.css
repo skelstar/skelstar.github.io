@@ -1,0 +1,433 @@
+/* @override 
+	http://skelmini.local/~flash/muritai/muritai.css
+	http://skelmini.local/~flash/muritai/reset.css
+	http://skelmini.local/~flash/muritai-test/css/muritai.css
+*/
+body {
+	font-family: verdana, Arial, helvetica;
+	color: #133f7f;
+	background-color: white;
+}
+h1 {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-weight: normal;
+	color: darkslategray;
+}
+h2 {
+	font-size: 18px;
+	color: black;
+	margin: 30px 0px 10px;
+	clear: both;
+}
+h2 a {
+	color: black;
+	text-decoration: none;
+	cursor: default;
+	font-weight: normal;
+}
+h2 a:hover { color: black;}
+
+div.after_school_care > h2 { text-align: left; margin-top: 40px; }
+div.after_school_care > div > img {	margin-left: 60px; }
+
+
+h3 {
+	font-size: 16px;
+	color: #333;
+	font-weight: normal;
+	clear: both;
+	text-decoration: underline;
+}
+h4 {
+	font-size: 13px;
+	color: black;
+	text-decoration: underline;
+	margin: 10px 0px 5px;
+}
+p {
+	margin: 8px 0px;
+	color: darkslategray;
+	font-size: 1.1em;
+}
+a {
+	color: #0e2f5e;
+	/*font-weight: bold;*/
+	text-decoration: none;
+}
+	a:hover {
+		border-style: none;
+	}
+	
+/* ------------------------------------
+
+-------------------------------------- */	
+
+.fixed-width {
+    margin: 3px auto;
+    width: 780px;
+}
+
+
+.footer {
+    background-color: #215192;
+    font-size: 12px;
+}
+    .footer p {
+        color: white;
+        text-align: center;
+        margin: 0;
+    }
+
+div.class-blogs {
+    clear: both;
+}
+
+div.class-room {
+    float: left;
+    display: block;
+    width: 180px;
+    height: 220px;
+    text-align: center;
+}
+    div.class-room img {
+        width: 120px;
+    }
+
+div.class-room a {
+    font-size: 12px;
+}
+
+div.class-room h4 {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.black { color: black; }
+.bold {	font-weight: bold; }
+
+#container ul {
+	color: darkslategray;
+	padding-left: 25px;
+}
+#container li {
+	font-size: 1.1em;
+/*	list-style-type: disc;*/
+	padding-top:  8px;
+}
+#container ul.no_bullet li {
+	list-style-type: none;
+}
+div#container.after_school_care ul { margin: 20px 0 30px; }
+
+hr {
+	margin: 20px;
+}
+
+a img {
+	border: none;
+}
+input.text, textarea, select.text {
+	background-color: #fdffcc;
+	border: 1px solid #133f7f;
+}
+fieldset {
+	margin-bottom: 20px;
+}
+legend {
+	font-size: 12px;
+}
+
+h2.syndicate {
+	margin: 20px 0 0;
+}
+p.blog-link { 
+	text-align: center; 
+	margin: 7px 0 30px; 
+	padding: 0;
+	font-size: 0.9em;
+	opacity: 0.5;
+}
+p.blog-link:hover {
+	opacity: 1;
+}
+p.blog-link a {
+	font-weight: normal;
+	color: black;
+}
+img.blog-icon {
+	height: 20px; width: 20px;
+}
+
+ul {
+	list-style: none;
+	list-style-type: none;
+}
+
+.silver { color: silver; }
+/* ---------------------------------------------------*/ 
+#top_banner {
+	margin: 10px auto;
+	width: 780px;
+	
+}
+/* ---------------------------------------------------*/ 
+#menu-strip {
+	background-color: #215192;
+	height: auto;
+	left: 0;
+	position:absolute;
+	width: 100%;
+}
+
+#top_menu {
+	width: 780px;
+	margin: 0px auto;
+}
+
+#top_menu a {
+	font-size: 12px;
+}
+/* ---------------------------------------------------*/ 
+#container {
+	width: 780px;
+	margin: 50px auto;
+	background-color: #fff;
+	clear: both;
+	border: 10px solid white;
+}
+	#container h1 {
+		text-align: center;
+		margin: 20px 0 30px;
+	}
+
+	#container h2 {
+		font-weight: normal;
+		font-size: 20px;
+		text-decoration: underline;
+		/*margin-bottom: 30px;*/
+	}	
+	#container h3 {
+		margin: 30px 0px 20px;
+	}
+	#container img {
+		vertical-align: middle;
+	}
+#container.class_blogs h2 {
+	margin: 15px auto 5px;
+	padding-bottom: 3px;;
+	border-bottom: 1px solid silver;
+	text-decoration: none;
+	width: 80%;
+}
+#container.class_blogs p {
+	text-align: center;
+}
+#container.class_blogs, 
+#container.staff-list h2 {
+	margin-top:  30px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+#container.staff-list li {
+	color: gray;
+	margin: 5px 0px;
+	text-align: center;
+	list-style: none;
+}
+#container.staff-list span.staff {
+	color: black;
+}
+#container.staff-list li a {
+	font-size: 12px;
+	font-weight: normal;
+}
+/* ------ POLICIES ------- */
+
+#container.policies h2 {
+	margin: 30px 0 10px;
+}
+div#container.policies ul {
+	padding-left: 10px;
+}
+div#container.policies ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 3px;
+	vertical-align: middle;
+}
+div#container.policies ul li a img {
+	margin: 0 10px;
+	width: 30px;
+}
+
+div.page_photo {
+	clear: both;
+	margin-top: 20px;
+}
+
+div#file p {
+	font-size: 12px;
+	text-align: center;
+}
+
+#file p a img {
+	width: 32px;
+}
+
+div#quotes p {
+	font-style: italic;
+}
+
+table#history {
+	border: 1px solid black;
+	font-size: 12px;
+}
+td {
+	border-bottom: 1px solid #ccc;
+}
+td#first_td {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* ------ classes2.php -------------------------------------- */ 
+
+#container ul {
+	margin-bottom: 5px;
+}
+
+#container ul.quick li {
+	display: inline;	
+	border: 1px solid gray;
+	padding: 3px 15px;
+	background-color: #d5d5d5;
+}
+#container ul.quick li.selected {
+	border-bottom-color: white;
+	background-color: white;
+}
+div#syndicate {
+	clear: both;
+}
+
+/* --------------------------------------------------- */ 
+#staff_member {
+	width: 181px;
+	height: 220px;
+	padding: 0 30px;
+	float: left;
+	/*border: 1px solid #ccc;*/
+}
+	#staff_member h4 {
+		color: #333;
+		font-weight: normal;
+		text-decoration: none;
+	}
+	#staff_member h5 {
+		color: black;
+		font-size: 12px;
+		text-decoration: none;
+	}
+	#staff_member p {
+		font-size: 0.9em;
+		margin: 2px;
+	}
+	#staff_member img {
+		width: 120px;
+		height: 120px;
+	}
+	#staff_member a {
+		font-size: 0.9em;
+		color: #0f007f;
+		font-weight: normal;
+	}
+
+/* --------------------------------------------------- */
+	
+#staff h3 {
+	font-weight: bold;
+	color: #133f7f;
+	width: 100%;
+	border-bottom: 1px solid black;
+	border-color: #b3b3b3;
+}
+
+/* ---------------------------------------------------*/ 
+
+#newsletters img {
+	margin: 0 5px;
+}
+#newsletters ul {
+	margin-left: 0px;
+	margin-top: 40px;
+	font-size: 11px;
+	font-weight: normal;
+	color: darkslategray;
+}
+#newsletters ul li {
+	list-style-type: none;
+}
+.nl_filetime {
+	font-size: 9px;
+	color: #666;
+}
+/* ---------------------------------------------------*/ 
+tr.information h4 {
+	margin-bottom: 30px;
+}
+tr.information td {
+	text-align: center;
+	width: 250px;
+/* 	border: 1px solid red; */
+	vertical-align: top;
+	padding-bottom: 50px;
+}
+tr.information img {
+	width: 40px;
+}
+tr.information p {
+	font-size: 10px;
+	text-align: center;
+}
+/* ---------------------------------------------------*/ 
+
+div#footer {
+	width: 100%;
+	text-align: center;
+	clear: both;
+}
+div#footer p {
+	color: #299291;
+	background-color: #215192;
+	font-size: 12px;
+	min-height: 200px;
+	padding: 2px 0 0;
+}
+div#footer a {
+	color: white;
+}
+
+/* ------------------------------------------------- */
+/*
+
+table.test-list  {
+	margin: 10px auto;
+	width: 800px;
+}
+table.test-list td {
+	border: none; 
+}
+
+
+td.left 	{ 	text-align: right; width: 300px; color: gray; }
+td.right 	{ 	text-align: left;  width: 500px }
+*/
+.stafflist {
+    text-align: center;
+}
+
+.stafflist ul li {
+    list-style: none;
+	list-style-type: none;
+}
