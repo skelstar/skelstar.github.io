@@ -59,12 +59,14 @@ function populateContactUs()
 
 function populateContent(path) {
     var host = window.location.host;
-    var pageUrl = "https://" + host + "/daycare" + path;
+    var pageUrl = "https://" + host + "/daycare" + path + "?;
     var $content = $("#content");
     var $mainSection = $("#main");
     $content.remove();
     $mainSection.append("<div class=\"description\" id=\"content\">");
-    $.getJSON(pageUrl)
+    $.getJSON(pageUrl, {
+        callback: "?"
+      })
     .done(function (data) {
         $.each(data, function (key, val) {
             $("#content").append(val);
