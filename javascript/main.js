@@ -25,7 +25,7 @@ function populateContactUs()
 
 function populateContent(path) {
     var host = window.location.host;
-    var pageUrl = "https://" + host + "/daycare" + path + "?callback=?";
+    var pageUrl = "http://" + host + path;
     var $content = $("#content");
     var $mainSection = $("#main");
     $content.remove();
